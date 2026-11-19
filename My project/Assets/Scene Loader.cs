@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public string sceneName;   // 넘어갈 씬 이름
+    public string sceneName;   // SampleScene
 
     public void Load()
     {
