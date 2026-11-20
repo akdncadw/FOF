@@ -28,6 +28,6 @@ public class SceneZone : MonoBehaviour
     private void Update()
     {
         if (playerNear && Keyboard.current.eKey.wasPressedThisFrame)
-            SceneManager.LoadScene(sceneName);
+            SceneFader.Go(sceneName);
     }
 }
